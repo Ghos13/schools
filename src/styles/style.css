@@ -1,0 +1,115 @@
+*{
+ margin: 0;padding: 0;box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    min-width: 1100px;
+    width: 100px;
+    margin: 0 auto;
+
+}
+.header {
+    Width:1296px;
+Height:140px;
+}
+.header h2{
+    color: #EC1B2E;
+}
+
+.group__1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+.group__1 button{
+    background: #EC1B2E;
+    width: 143px;
+    height: 40px;
+    color: white;
+}
+
+.group__2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.school{
+    background-image: url(../images/Rectangle\ 31.png);
+    height:700px;
+    
+}
+.regeste{
+    position: relative;
+}
+.school h1{
+
+    position: absolute;
+    bottom: 350px;
+    left: 450px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 350px;
+    height: 160px;
+    border: 1px solid gray;
+    background: #33333380;
+    
+}
+.school button{
+    position: absolute;
+    bottom: 373px;
+    left: 450px;
+    background: #EC1B2E;
+    color: white;
+}
+.svg__1{
+
+    position: absolute;
+    bottom: 400px;
+    left: 1100px;
+}
+.svg__2{
+    position: absolute;
+    bottom: 400px;
+    
+}
+.school__lore{
+    display: flex;
+    position: relative;
+    column-gap: 150px;
+}
+.school__lore__1{
+   margin: 90px;
+}
+.school__lore h1{
+position: absolute;
+bottom: 250px;
+left: 300px;
+background-color: white;
+    
+}
+.school__lore h5 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid red;
+  box-sizing: border-box;
+  width: 630px;
+
+}
+.school__lore__2 img{
+    align-items: center;
+    justify-content: center;
+   height: 125px;
+   
+}
+
+
+
+
+
